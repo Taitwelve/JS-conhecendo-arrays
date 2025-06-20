@@ -18,3 +18,10 @@ console.log(`O menor número é: ${Math.min(...numeros)}`);
 console.log(`A soma dos números é: ${numeros.reduce((acc, num) => acc + num, 0)}`);
 console.log(`A média dos números é: ${(numeros.reduce((acc, num) => acc + num, 0) / numeros.length).toFixed(0)}`);
 console.log(numeros);
+//---------------------------------------------------------------------------
+
+const arrayDeNumeros = [50, 43, 12];
+const arrayDeStrings = ["banana", "alura", "Juliana"];
+
+console.log(arrayDeNumeros);
+console.log(arrayDeStrings);
