@@ -46,3 +46,14 @@ animaisDoAquario = ['baleia', 'polvo', 'golfinho', 'tubarão']
 animaisDoAquario.splice(1, 0, 'sardinha')
 animaisDoAquario.splice(3, 2, 'atum')
 console.log(animaisDoAquario)
+
+//----------------------------------------------------------------------------------------------------------------------------
+//Crie uma função que receba dois arrays e os concatene em um único array.
+function concatenateArrays(arr1, arr2) {
+    return arr1.concat(arr2);
+}
+
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+const concatenatedArray = concatenateArrays(array1, array2);
+console.log(concatenatedArray); 
