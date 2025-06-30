@@ -92,3 +92,8 @@ for (let i = 0; i < 3; i++) {
 console.log('Matriz de duas dimensões:');
 console.log(matrizBidimensional);
 matrizBidimensional.forEach(row => console.log(row));
+
+//----------------------------------------------------------------------------------------------------------------------------
+//Acesse e imprima o elemento na segunda linha e terceira coluna da lista bidimensional matriz criada no exercício anterior.
+const elemento = matrizBidimensional[1][2];
+console.log('Elemento na segunda linha e terceira coluna:', elemento);
