@@ -97,3 +97,9 @@ matrizBidimensional.forEach(row => console.log(row));
 //Acesse e imprima o elemento na segunda linha e terceira coluna da lista bidimensional matriz criada no exercício anterior.
 const elemento = matrizBidimensional[1][2];
 console.log('Elemento na segunda linha e terceira coluna:', elemento);
+
+//----------------------------------------------------------------------------------------------------------------------------
+//Adicione um novo elemento (por exemplo,15) na terceira linha e segunda coluna da lista bidimensional matriz criada anteriormente.
+matrizBidimensional[2][1] = 15;
+console.log('Matriz atualizada com novo elemento: ');
+console.log(matrizBidimensional);
