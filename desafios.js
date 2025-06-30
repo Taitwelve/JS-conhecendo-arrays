@@ -89,7 +89,6 @@ for (let i = 0; i < 3; i++) {
     matrizBidimensional.push(linha);
 }
 
-//TODO: teste de TODO
 console.log('Matriz de duas dimensões:');
 console.log(matrizBidimensional);
 matrizBidimensional.forEach(row => console.log(row));
