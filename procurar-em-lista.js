@@ -5,8 +5,9 @@ const lista = [aluno, medias];
 
 function exibeNomeENota (aluno) {
     if (lista[0].includes(aluno)) {
-        const indice = lista[0].indexOf(aluno);
-        const mediaAluno = lista[1][indice];
+        const [alunos, medias] = lista;
+        const indice = alunos.indexOf(aluno);
+        const mediaAluno = medias[indice];
         console.log(`O(a) aluno(a) ${aluno} tem média ${mediaAluno}`);
     } else {
         console.log(`O(a) aluno(a) ${aluno} não foi encontrado.`);
@@ -15,3 +16,7 @@ function exibeNomeENota (aluno) {
 
 exibeNomeENota('Maria');
 exibeNomeENota('Carlos');
+exibeNomeENota('Ana');
+exibeNomeENota('João');
+exibeNomeENota('Pedro');
+exibeNomeENota('Lucas');
