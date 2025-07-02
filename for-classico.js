@@ -14,3 +14,7 @@ for (let i = 0; i <= 10; i++) {
 }
 
 //---------------------------------------------------------------
+// Código de for infinito, ele não tem uma condição de parada
+for (let indice = 0; ; indice++) {
+ console.log(indice);
+}
