@@ -1,5 +1,7 @@
 const notas = [7, 8, 9, 10];
-const novaListaNotas = notas;
+const novaListaNotas = [...notas];
+
+// Spread operator
 
 novaListaNotas.push(10);
 // let nota = 9.75;
